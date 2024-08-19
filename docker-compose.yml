@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  nextjs-app:
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    image: mohamedryad/nextjs-app:v1
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./frontend/.env
+    container_name: nextjs_app_container
+    networks:
+      - rasberry-development_rasberry_network
+
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - /var/jenkins_home/workspace/superabbit-autiomation/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "80:80"
+    depends_on:
+      - nextjs-app
+    container_name: nginx_container
+    networks:
+      - rasberry-development_rasberry_network
+
+networks:
+  rasberry-development_rasberry_network:
+

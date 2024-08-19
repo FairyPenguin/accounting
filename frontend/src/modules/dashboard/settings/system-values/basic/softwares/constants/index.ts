@@ -1,0 +1,1 @@
+export const DEFAULT_SOFTWARE_PAGE_SIZE = 5;

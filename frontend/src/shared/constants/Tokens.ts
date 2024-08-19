@@ -1,0 +1,4 @@
+const JWT_TOKEN =
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyIiwidXVpZCI6ImU3ODkyYzIzLTRhOGItNDM4Mi04YmYzLWY2MGY5N2UzNjIyZCIsInRlbmFudElkIjoiMSIsImlhdCI6MTcxODExOTcyMywiZXhwIjozLjZlKzI2fQ.AdPxxZeevVmkzdMCRLhJHn6btRmVSZmf9kvQJylEvyI";
+
+export default JWT_TOKEN;

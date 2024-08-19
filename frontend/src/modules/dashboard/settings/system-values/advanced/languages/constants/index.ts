@@ -1,0 +1,1 @@
+export const DEFAULT_LANGUAGES_PAGE_SIZE = 5;

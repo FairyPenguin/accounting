@@ -1,0 +1,1 @@
+export const DEFAULT_SERVICES_PAGE_SIZE = 5;

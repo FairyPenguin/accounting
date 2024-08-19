@@ -1,0 +1,1 @@
+export const DEFAULT_JOURNAL_ENTRIES_PAGE_SIZE = 7;

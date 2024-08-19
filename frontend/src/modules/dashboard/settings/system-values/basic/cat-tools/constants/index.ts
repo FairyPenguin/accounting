@@ -1,0 +1,1 @@
+export const DEFAULT_CAT_TOOL_PAGE_SIZE = 5;

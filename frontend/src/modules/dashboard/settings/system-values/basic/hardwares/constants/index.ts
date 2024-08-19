@@ -1,0 +1,1 @@
+export const DEFAULT_HARDWARE_PAGE_SIZE = 5;

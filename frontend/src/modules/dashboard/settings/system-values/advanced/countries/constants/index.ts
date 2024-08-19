@@ -1,0 +1,1 @@
+export const DEFAULT_COUNTRIES_PAGE_SIZE = 5;

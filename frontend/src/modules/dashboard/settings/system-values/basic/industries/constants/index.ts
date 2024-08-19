@@ -1,0 +1,1 @@
+export const DEFAULT_INDUSTRY_PAGE_SIZE = 5;

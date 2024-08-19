@@ -1,0 +1,1 @@
+export const DEFAULT_CURRENCIES_PAGE_SIZE = 5;
